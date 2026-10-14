@@ -20,7 +20,7 @@ Criei o projeto inicialmente no n8n e estruturei o fluxo editorial com agentes, 
 
 ### [Deep Research — backend de pesquisa](https://github.com/eliejosuevargas01-stack/Deep-Research)
 
-Levei a ideia para um backend próprio em Python e FastAPI, com orquestração assíncrona e componentes de briefing, pesquisa, auditoria e redação. Desenvolvo com SDD para ligar requisitos a critérios e testes. A validação com LLMs e serviços externos segue como etapa futura.
+Criei o Deep Research começando no n8n. Em 15 dias, cheguei a uma versão funcional; em 17 dias no total, reduzi o tempo de pesquisa de pelo menos 20 minutos para cerca de 4 minutos, varrendo mais de 100 sites. Depois acrescentei RAG e vetorização para o agente reutilizar informações já coletadas e evitar novas varreduras quando elas já estavam disponíveis. Agora estou migrando a ideia para Python e FastAPI; essa etapa continua em desenvolvimento. O código público mostra a migração atual, enquanto a origem e os resultados iniciais pertencem à versão n8n.
 
 ### [Blog Moto Na Prática — portal](https://github.com/eliejosuevargas01-stack/blog-moto-na-pratica)
 
