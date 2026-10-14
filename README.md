@@ -24,7 +24,7 @@ Criei o Deep Research começando no n8n. Em 15 dias, cheguei a uma versão funci
 
 ### [Blog Moto Na Prática — portal](https://github.com/eliejosuevargas01-stack/blog-moto-na-pratica)
 
-Portal de conteúdo em TypeScript e Next.js, com Prisma, PostgreSQL, API de posts, CMS próprio e fluxo editorial.
+Desenvolvi o portal do Moto Na Prática em TypeScript/Next.js, com Prisma, PostgreSQL, API de posts e fluxo editorial integrado.
 
 ### [Controle de Validades — aplicação complementar](https://github.com/eliejosuevargas01-stack/controle_validades_py)
 
