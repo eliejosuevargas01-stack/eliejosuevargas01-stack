@@ -16,7 +16,7 @@ Uso IA como parte do processo: organizo requisitos e critérios de aceite, imple
 
 ### [Moto Na Prática — automação editorial](https://github.com/eliejosuevargas01-stack/motonapratica-n8n-workflows)
 
-Criei o projeto inicialmente no n8n. Os workflows públicos mostram automações editoriais com agentes, webhooks, chamadas HTTP e JavaScript para tratar dados e preparar conteúdo.
+Criei o projeto inicialmente no n8n e estruturei o fluxo editorial com agentes, webhooks, chamadas HTTP e JavaScript para transformar dados e preparar conteúdo.
 
 ### [Deep Research — backend de pesquisa](https://github.com/eliejosuevargas01-stack/Deep-Research)
 
@@ -24,7 +24,7 @@ Levei a ideia para um backend próprio em Python e FastAPI, com orquestração a
 
 ### [Blog Moto Na Prática — portal](https://github.com/eliejosuevargas01-stack/blog-moto-na-pratica)
 
-Portal de conteúdo em TypeScript e Next.js, com Prisma, PostgreSQL, API de posts e contrato editorial. Typecheck, testes e build passaram no CI do commit avaliado.
+Portal de conteúdo em TypeScript e Next.js, com Prisma, PostgreSQL, API de posts, CMS próprio e fluxo editorial.
 
 ### [Controle de Validades — aplicação complementar](https://github.com/eliejosuevargas01-stack/controle_validades_py)
 
