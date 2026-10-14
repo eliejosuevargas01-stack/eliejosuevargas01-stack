@@ -1,55 +1,38 @@
 # Eliezer Josué Vargas Gamboa
 
-**Desenvolvedor de Software | Desenvolvimento com IA e Spec-Driven Development (SDD)**
+**Desenvolvedor de Software | IA aplicada ao desenvolvimento | Spec-Driven Development (SDD)**
 
 [GitHub](https://github.com/eliejosuevargas01-stack) · [LinkedIn](https://www.linkedin.com/in/eliezer-josu%C3%A9-vargas-gamboa-863b4a408/) · [E-mail](mailto:eliejosuevargas01@gmail.com)
 
-Gaspar, SC, Brasil. Disponível para trabalho remoto, híbrido ou presencial em Gaspar, Brusque, Ilhota e Blumenau.
+Gaspar, SC, Brasil · Disponível para trabalho remoto, híbrido ou presencial em Gaspar, Brusque, Ilhota e Blumenau.
 
-Criei Moto Na Prática e Deep Research primeiro no n8n e depois migrei para sistemas próprios em código com ajuda de IA e SDD. Essa contribuição é autoria declarada por mim; os repositórios abaixo permitem examinar implementações e artefatos, sem pressupor operação contínua em produção.
+Criei Moto Na Prática e Deep Research primeiro no n8n e depois migrei os projetos para sistemas próprios em código, com apoio de IA e SDD. Gosto de transformar ideias em requisitos claros, automações, aplicações e testes.
 
-## Desenvolvimento com IA e SDD
+## Como desenvolvo
 
-Meu foco é converter problemas em requisitos, contratos e critérios de aceite, implementar com auxílio de IA e manter relação verificável entre especificação, código e testes. No Deep Research, essa cadeia aparece em requisitos RF-01–RF-10, cenários Gherkin, tarefas, domínio de briefing e testes de lifecycle. Validação contra provedor real permanece pendente.
+Uso IA como parte do processo: organizo requisitos e critérios de aceite, implemento e conecto especificação, código e testes. No Deep Research, essa abordagem já aparece nos requisitos, cenários e testes do fluxo de briefing. Rodei 22 testes puros nessa camada; validar integrações com provedores reais é um próximo passo.
 
-## Projetos com código público examinado
+## Projetos em destaque
 
-Referência da revisão: **13/10/2026**. Os resultados se limitam aos commits e escopos indicados; leitura de código, testes locais e CI não equivalem a produção comprovada.
+### [Moto Na Prática — automação editorial](https://github.com/eliejosuevargas01-stack/motonapratica-n8n-workflows)
 
-### [Moto Na Prática — automação n8n](https://github.com/eliejosuevargas01-stack/motonapratica-n8n-workflows)
+Criei o projeto inicialmente no n8n. Os workflows públicos mostram automações editoriais com agentes, webhooks, chamadas HTTP e JavaScript para tratar dados e preparar conteúdo.
 
-Automação editorial com agentes, webhooks, HTTP, tratamento de JSON e geração de conteúdo. Stack observada: n8n, JavaScript, HTTP, Webhooks e LLMs.
+### [Deep Research — backend de pesquisa](https://github.com/eliejosuevargas01-stack/Deep-Research)
 
-- Inventário: 8 exports em workflows/active/ somam 174 nós; snapshot estático do commit, não estado atual de produção.
-- Revisão dos exports: nenhum workflow acionado. Integração configurada não prova resposta externa.
-- Commit examinado: `f985313081bad8a702793a5e40bf9fbb115cfe12`.
-- Antes de republicar exports: revisar referências de credenciais e dados de execução; não assumir sanitização completa.
-
-### [Deep Research — backend](https://github.com/eliejosuevargas01-stack/Deep-Research)
-
-Backend Python/FastAPI com orquestração asyncio, personas de pesquisa, auditor e writer, APIs de consulta/callback, autenticação e controles SSRF observados no código.
-
-- Evidência de execução: 22 testes puros passados, sem LLM, DB ou provedores reais; não precisão de pesquisa.
-- CI completo não aprovado; validação de API, serviços externos e produção não demonstrada por esses testes.
-- Commit examinado: `8bfd5299904a40e00e23f2e5c4151bc7b78126b9`.
+Levei a ideia para um backend próprio em Python e FastAPI, com orquestração assíncrona e componentes de briefing, pesquisa, auditoria e redação. Desenvolvo com SDD para ligar requisitos a critérios e testes. A validação com LLMs e serviços externos segue como etapa futura.
 
 ### [Blog Moto Na Prática — portal](https://github.com/eliejosuevargas01-stack/blog-moto-na-pratica)
 
-Portal TypeScript/Next.js com Prisma e PostgreSQL, API de posts e contrato editorial. CI remoto de typecheck, testes e build aprovado no commit examinado. Isso não prova deploy do commit nem publicação/indexação de conteúdo.
+Portal de conteúdo em TypeScript e Next.js, com Prisma, PostgreSQL, API de posts e contrato editorial. Typecheck, testes e build passaram no CI do commit avaliado.
 
-- Commit examinado: `cbc9f92598368243a9dc6c51116e2104f9907807`.
+### [Controle de Validades — aplicação complementar](https://github.com/eliejosuevargas01-stack/controle_validades_py)
 
-### [Controle de Validades — projeto complementar](https://github.com/eliejosuevargas01-stack/controle_validades_py)
-
-Projeto Python de gestão de validade: CRUD por usuário e ordenação por vencimento. Código público examinado; não executado na auditoria. Impacto empresarial e economia de tempo não medidos nessa revisão.
-
-- Commit examinado: `6795b8f3126b677b30421bc9cda0eb8b9f48b421`.
+Aplicação Python para organizar produtos por validade, com cadastro por usuário e ordenação por vencimento.
 
 ## Formação e idiomas
 
-- Engenharia de Software — Uniasselvi, Gaspar; desde janeiro de 2026, em andamento.
-- Espanhol nativo.
-- Português fluente.
-- Inglês básico a intermediário, autodeclarado: leitura mais forte que conversação; sem certificação de nível.
+- Engenharia de Software — Uniasselvi, Gaspar; em andamento desde janeiro de 2026.
+- Espanhol nativo · Português fluente · Inglês básico a intermediário, com leitura mais forte que conversação.
 
-Experiência anterior em produção e operações no varejo ajuda a identificar problemas de rotina; não é apresentada como vínculo profissional de desenvolvimento de software.
+Minha experiência em produção e operações no varejo também influencia como identifico problemas de rotina que podem ser melhorados com software.
