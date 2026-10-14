@@ -6,7 +6,7 @@
 
 Gaspar, SC, Brasil · Disponível para trabalho remoto, híbrido ou presencial em Gaspar, Brusque, Ilhota e Blumenau.
 
-Criei Moto Na Prática e Deep Research primeiro no n8n e depois migrei os projetos para sistemas próprios em código, com apoio de IA e SDD. Gosto de transformar ideias em requisitos claros, automações, aplicações e testes.
+Criei Moto Na Prática e Deep Research primeiro no n8n. Estruturei o fluxo editorial do Moto em código e hoje estou migrando o Deep Research para Python e FastAPI, com apoio de IA e SDD. Gosto de transformar ideias em requisitos claros, automações, aplicações e testes.
 
 ## Como desenvolvo
 
